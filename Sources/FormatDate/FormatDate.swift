@@ -7,7 +7,7 @@ public protocol FormatDateProtocol {
     func formatingDate(T: String) -> String
 }
 
-public class FormatDate {
+public class FormatDate: FormatDateProtocol {
     
     public init() { }
     
