@@ -9,7 +9,7 @@ public protocol FormatDateProtocol {
 
 public class FormatDate {
     
-    init() { }
+    public init() { }
     
     public func formatingDate(T: String) -> String {
         let dateFormatter = DateFormatter()
